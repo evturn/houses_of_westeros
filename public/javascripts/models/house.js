@@ -20,3 +20,8 @@ module.exports = function(sequelize, DataTypes) {
   });
   return House;
 };
+
+var House = Backbone.Model.extend({
+  
+});
+
