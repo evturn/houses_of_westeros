@@ -3,7 +3,8 @@ var HouseView = Backbone.View.extend({
 	tagName: 'li',
 	className: '.house',
 	render: function(){
-		this.el.html(this.model).append('.ul');
+		_.each.this.el.html(this.model.name).append('.ul');
+	fetch();
 	return this;
 	}
 });
